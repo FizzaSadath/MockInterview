@@ -15,7 +15,7 @@ from PyQt5.QtGui import QTextCursor
 
 
 # Configure Google Generative AI (Replace 'YOUR_API_KEY' with your actual key)
-genai.configure(api_key="AIzaSyAqogEyMCExffBBKTzbglxVTB8jhMOdJDc")
+genai.configure(api_key="YOUR_API_KEY")
 model = genai.GenerativeModel("gemini-1.5-flash")  # Change model if needed
 chat_session = model.start_chat(
     history=[
