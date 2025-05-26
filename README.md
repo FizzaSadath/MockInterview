@@ -1,1 +1,2 @@
 # MockInterview
+This is a Python-based AI-powered mock interview tool that simulates real interview scenarios. It features a PyQt5 GUI with integrated webcam support for real-time emotion analysis using DeepFace, and voice input through Google's Speech Recognition. The app interacts with users via contextual conversations powered by Google's Gemini AI, dynamically generating interview questions based on the user's spoken responses. It's ideal for practicing interviews and improving communication skills in a realistic, feedback-rich environment.
